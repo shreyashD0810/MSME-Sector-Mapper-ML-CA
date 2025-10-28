@@ -77,18 +77,18 @@ I employed a multi-class text classification approach using TF-IDF vectorization
 - **MAE (10.38-14.13)**: On average, predicted class labels are about 10-14 class units away from the true labels
 - **RMSE (68.67-77.16)**: The typical prediction error ranges from 69-77 class units in the original scale
 ---
-## 📊 Results & Visualizations
+## Results & Visualizations
 
 ### MSME Data Analysis Results
 
 | Word Cloud Analysis | Activity Distribution |
 |:-------------------:|:---------------------:|
-| <img src="images/wordcloud.png" width="400"> | <img src="images/activity_distribution.png" width="400"> |
-| Shows most frequent activities and enterprise names | Displays distribution across business sectors |
+| <img src="Results/15 most common words.png" width="700"> | <img src="Results/Business types pie chart.png" width="400"> |
+| Shows most frequent activities and enterprise names | Business types pie chart |
 
-Word Cloud Analysis
-![Word Cloud](images/wordcloud.png)
-The word cloud visualization highlights the most common business activities and enterprise names...
+## Word Cloud Analysis
+![Word Cloud](Results/wordcloud.png)
+### The word cloud visualization highlights the most common business activities and enterprise names...
 
 ---
 ### Key Findings
