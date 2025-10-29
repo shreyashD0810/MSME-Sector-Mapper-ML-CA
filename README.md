@@ -8,6 +8,19 @@ My approach achieves good results with up to **95.3% accuracy** in classifying M
 
 ---
 
+### Interactive Project Demonstration (gif)
+
+<img src="Results/ML Project UI.gif" width="1000">
+
+The **interactive UI demo** showcases how users can:
+- Upload MSME datasets for automatic preprocessing  
+- Analyze classification predictions and feature importance  
+- Explore interactive dashboards showing test data and insights  
+
+This interface enables policymakers and analysts to **visually interpret model outcomes** and make **data-driven policy decisions**.
+
+---
+
 ## Dataset Source
 
 - **Dataset Size**: 30,000 MSME records from Maharashtra, India  
@@ -102,19 +115,6 @@ The word cloud visualization shows the most common business activity related key
 |:-------------------------:|:------------------------------:|
 | <img src="Results/test_performance_summary.png" width="500"> | <img src="Results/training_validation_metrics.png" width="500"> |
 | The **test performance summary** plot shows the distribution of predicted performance levels (Low, Medium, High), key district-level insights, and top-performing MSME clusters across regions | The **training and validation metrics** graph visualizes model performance |
-
----
-
-### Interactive Project Demonstration (gif)
-
-<img src="Results/ML Project UI.gif" width="700">
-
-The **interactive UI demo** showcases how users can:
-- Upload MSME datasets for automatic preprocessing  
-- Analyze classification predictions and feature importance  
-- Explore interactive dashboards showing test data and insights  
-
-This interface enables policymakers and analysts to **visually interpret model outcomes** and make **data-driven policy decisions**.
 
 ---
 
