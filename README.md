@@ -11,7 +11,9 @@ My approach achieves good results with up to **95.3% accuracy** in classifying M
 ### Interactive Project Demonstration (gif)
 
 <img src="Results/ML Project UI.gif" width="1000">
+
 https://materialm-ai-dash.lovable.app
+
 The **interactive UI demo** showcases how users can:
 - Upload MSME datasets for automatic preprocessing  
 - Analyze classification predictions and feature importance  
