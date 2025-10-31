@@ -2,7 +2,7 @@
 
 ## Short Description
 
-This novel approach addresses the need for accurate classification and analysis of Micro, Small, and Medium Enterprises (MSMEs) based on their business activities. The problem is important because governments and policymakers rely on accurate sector classification to design targeted policies, allocate resources effectively, and understand economic trends. By automatically mapping enterprises to standardized NIC (National Industrial Classification) codes, this system enables more efficient policy implementation, market analysis, and economic planning.
+This novel approach address the need for accurate classification and analysis of Micro, Small, and Medium Enterprises (MSMEs) based on their business activities. The problem is important because government and policymaker rely on accurate sector classification to design targeted policies, allocate resources effectively, and understand economic trends. By automatically mapping enterprises to standardized NIC (National Industrial Classification) codes, this system enables more efficient policy implementation, market analysis, and economic planning.
 
 My approach achieves good results with up to **95.3% accuracy** in classifying MSMEs into correct industrial sectors, providing a robust app for data driven decision making in economic development.
 
@@ -12,7 +12,6 @@ My approach achieves good results with up to **95.3% accuracy** in classifying M
 
 <img src="Results/ML Project UI.gif" width="1000">
 
-https://materialm-ai-dash.lovable.app
 
 The **interactive UI demo** showcases how users can:
 - Upload MSME datasets for automatic preprocessing  
@@ -25,23 +24,23 @@ This interface enables policymakers and analysts to **visually interpret model o
 
 ## Dataset Source
 
-- **Dataset Size**: 30,000 MSME records from Maharashtra, India  
+- **Dataset Size**: 19,400 MSME records from Maharashtra, India  
 - **Original Features**: 9 columns including enterprise names, addresses, registration dates, and activity descriptions  
 - **Key Challenge**: The activity information was stored in JSON-like string format requiring specialized extraction  
 
 ---
 
 ## Preprocessing Steps
-- Extracted activity descriptions and NIC codes from JSON structure  
-- Handled missing values (33 missing NIC codes, 1 missing enterprise name)  
-- Filtered out rare classes with fewer than 10 samples to improve model stability  
-- Merged enterprise names and activity descriptions into one text feature  
-- Applied comprehensive text cleaning including lowercasing, punctuation removal, and lemmatization  
+- Extract activity descriptions and NIC codes from JSON structure  
+- Handling missing values  
+- Filtering out rare classes with fewer than 10 samples to improve model stability  
+- Merged enterprise names and activity descriptions into one text feature
+- Apply text cleaning including lowercasing, punctuation removal, and lemmatization  
 
 ---
 
 ## Approach 
-I employed a multi class text classification approach using TF-IDF vectorization combined with traditional machine learning classifiers. This approach was chosen because:
+This approach uses text classification approach using TF-IDF vectorization combined with traditional machine learning Algorithm. This approach was chosen because:
 
 1. **Interpretability**: Traditional ML models provide transparent decision making processes important for policy implementation  
 2. **Computational Efficiency**: Faster training compared to other alternatives  
@@ -72,7 +71,6 @@ I employed a multi class text classification approach using TF-IDF vectorization
    - pandas, numpy, scikit-learn  
    - nltk for text preprocessing  
    - transformers (Hugging Face) for tokenizer  
-
 ---
 
 ## Results Summary
@@ -137,7 +135,7 @@ The word cloud visualization shows the most common business activity related key
 
 ## Conclusion
 
-This project shows how machine learning can make MSME classification faster, more accurate, and useful for real-world policy decisions. By combining text preprocessing, feature engineering, and traditional ML models, we achieved around **95% accuracy** in mapping enterprises to their correct sectors. The visual insights and interactive interface make it easier for users to understand enterprise trends and policy implications. Overall, this work proves that even simple, well-tuned ML methods can deliver powerful, interpretable results — and future improvements with NLP models could make the system even smarter and more context-aware.
+This novel approach shows how machine learning can make MSME classification faster, more accurate, and useful for real world policy decisions. By combining text preprocessing, feature engineering, and traditional ML models, we achieved around **95% accuracy** in mapping enterprises to their correct sectors. The visual insights and interactive interface make it easier for users to understand enterprise trends and policy implications. Overall, this work proves that even simple, well-tuned ML methods can deliver powerful, interpretable results — and future improvements with NLP models could make the system even smarter and more context-aware.
 
 ---
 
