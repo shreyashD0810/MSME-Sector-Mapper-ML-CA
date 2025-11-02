@@ -1,6 +1,6 @@
 # MSME Sector Mapper for Targeted Policy Implementation and Market Analysis
 
-## Short Description
+## Description
 
 This novel approach address the need for accurate classification and analysis of Micro, Small, and Medium Enterprises (MSMEs) based on their business activities. The problem is important because government and policymaker rely on accurate sector classification to design targeted policies, allocate resources effectively, and understand economic trends. By automatically mapping enterprises to standardized NIC (National Industrial Classification) codes, this system enables more efficient policy implementation, market analysis, and economic planning.
 
