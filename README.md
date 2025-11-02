@@ -1,13 +1,35 @@
 # MSME Sector Mapper for Targeted Policy Implementation and Market Analysis
 
-## Description
+### Introduction
+A thriving MSME (Micro, Small, and Medium Enterprises) business sector is essential to India's vision of technology based, regionally diverse, and inclusive economic growth, with Udyam scheme enterprises emerging as innovation led, digitally enabled, and regionally diversified employment and development drivers. Ideally, these enterprises should be able to scale highly, get access to support in a timely manner, and play fairly within the economy, both in sectors and states.
 
 This novel approach address the need for accurate classification and analysis of Micro, Small, and Medium Enterprises (MSMEs) based on their business activities. The problem is important because government and policymaker rely on accurate sector classification to design targeted policies, allocate resources effectively, and understand economic trends. By automatically mapping enterprises to standardized NIC (National Industrial Classification) codes, this system enables more efficient policy implementation, market analysis, and economic planning.
 
 My approach achieves good results with up to **95.3% accuracy** in classifying MSMEs into correct industrial sectors, providing a robust app for data driven decision making in economic development.
 
 ---
+### Dataset Overview
+The data employed in this novel approach is the Ministry of Micro, Small and Medium Enterprises (MoMSME), Government of India Udyam Registration Microdata from the official Udyam portal. It contains unit-level data of all the Udyam scheme-registered firms since inception on 1 July 2020, provided at near real-time updated frequency.
 
+Number of Rows: 250,000, each one of a distinct MSME.
+
+Number of Columns: 10 basic fields (explained in greater detail below), connecting structured identifiers, geospatial, time, and semi-structured activity data.
+
+### Dataset Schema
+
+| Field Name | Description | Data Type |
+| :--- | :--- | :--- |
+| **LG_ST_Code** | State code (Local Government code as per Census/Administration) | INT |
+| **State** | Name of the state where the MSME is registered | VARCHAR(50) |
+| **LG_DT_Code** | District code (Local Government) | INT |
+| **District** | District name | VARCHAR(50) |
+| **Pincode** | Area postal code | INT or VARCHAR(10) |
+| **RegistrationDate** | Date of MSME registration | DATE |
+| **EnterpriseName** | Name of the enterprise | VARCHAR(100) |
+| **CommunicationAddress** | Full communication address as provided | TEXT |
+| **Activities** | JSON array of primary activity with NIC Code & Description | JSON / TEXT |
+
+---
 ### Interactive Project Demonstration (gif)
 
 <img src="Results/ML Project UI.gif" width="1000">
@@ -21,7 +43,15 @@ The **interactive UI demo** showcases how users can:
 This interface enables policymakers and analysts to **visually interpret model outcomes** and make **data-driven policy decisions**.
 
 ---
-
+### Literature Review
+| No. | References | Method Used | Findings | Main Objectives | Results | Limitations |
+|-----|------------|--------------|----------|-----------------|---------|-------------|
+| 1 | Manna & Mistri (2025) | Descriptive statistics from UAM/EM-II | Micro firms dominate (99%), regional disparities, state-level targeting | Analyze regional patterns in MSME registration | Highlights regional disparities, esp. UP, Gujarat, TN | Based on older data, lacks dynamic modeling |
+| 2 | Veena (2021) | Time-series analysis of UAM/Udyam data | ~98% are micro firms; low growth trajectory despite registration boom | Assess long-term registration patterns | Finds little scale-up post-2020 surge | No survival or impact modeling |
+| 3 | Sameena Banu & Suresh (2022) | Field survey of 900 Udyam units | Low tech-scheme awareness; size & regional disparities | Explore tech scheme uptake | Large awareness and uptake gaps among firms | Karnataka-only sample; low generalizability |
+| 4 | Bilal Hussain (2024) | Mixed methods; Udyam registration data | Registered firms show higher R&D/credit access | Assess benefits of formal registration | Registration linked with innovation & credit uptake | Correlation, not causal proof |
+| 5 | Kumaraswamy & Tamizhjyothi (2025) | District-wise registration analysis | PLI performance tied to formal enrollment density | Map registration rates to policy coverage | Regional gaps in PLI efficiency | Focused on Andhra Pradesh |
+---
 ## Dataset Source
 
 - **Dataset Size**: 19,400 MSME records from Maharashtra, India  
@@ -153,6 +183,8 @@ The **training and validation metrics** graph visualizes model performance.
 ## Conclusion
 
 This novel approach shows how machine learning can make MSME classification faster, more accurate, and useful for real world policy decisions. By combining text preprocessing, feature engineering, and traditional ML models, we achieved around **95% accuracy** in mapping enterprises to their correct sectors. The visual insights and interactive interface make it easier for users to understand enterprise trends and policy implications. Overall, this work proves that even simple, well-tuned ML methods can deliver powerful, interpretable results — and future improvements with NLP models could make the system even smarter and more context-aware.
+
+Overall, this research effectively integrates data engineering, machine learning, and explainable AI to forecast MSME longevity, quantify regional vulnerabilities, and deliver actionable insights, rendering it an invaluable tool for evidence-based policymaking and inclusive entrepreneurial growth in post-COVID India.
 
 ---
 
