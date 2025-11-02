@@ -42,6 +42,8 @@ This interface enables policymakers and analysts to **visually interpret model o
 ## Approach 
 This approach uses text classification approach using TF-IDF vectorization combined with traditional machine learning Algorithm. This approach was chosen because:
 
+<img src="Results/workflow.png" width="1000">
+
 1. **Interpretability**: Traditional ML models provide transparent decision making processes important for policy implementation  
 2. **Computational Efficiency**: Faster training compared to other alternatives  
 3. **Data Efficiency**: Effective with moderate dataset sizes without requiring a lot of computational resources  
