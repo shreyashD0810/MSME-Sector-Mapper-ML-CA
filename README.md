@@ -190,15 +190,14 @@ Overall, this research effectively integrates data engineering, machine learning
 
 ## References
 
-[1] Charkha, S. L., & Shah, B. (2021). Growth, performance and projections — Micro, small, and medium enterprises (MSME's) in India: A discourse analysis. *Journal of Management Research and Analysis*, 8(4), 155-158. https://doi.org/10.18231/j.jmra.2021.032.
+[1] P. Manna and T. Mistri, “Status of Micro Small and Medium Enterprises (MSME) in India: A Regional Analysis,” IOSR Journal Of Humanities And Social Science (IOSR-JHSS, doi: https://doi.org/10.9790/0837-2209137282.
 
-[2]. Singh, S., & Paliwal, M. (2017). Unleashing the growth potential of Indian MSME sector. *Comparative Economic Research. Central and Eastern Europe*, 20(2), 35-52. https://doi.org/10.1515/cer-2017-0011.
+[2] Veena, “An Analysis of Growth of MSMEs in India,” SEDME (Small Enterprises Development, Management & Extension Journal): A worldwide window on MSME Studies, vol. 47, no. 2, pp. 138–145, Jun. 2020, doi: https://doi.org/10.1177/09708464211036216.
 
-[3]. Singh, N., & Gupta, O. P. (2023). Growth of Micro, Small and Medium Enterprises (MSMEs) in India and its Role in Indian Economy. *International Journal for Multidisciplinary Research (IJFMR)*, 5(4). 
+[3] Banu, Sameena & Suresh, B.. (2022). Registration Of MSMEs Under Technology Upgradation Schemes And Services: The Need Of The Hour. International Journal of Research In Commerce and Management Studies. 12. 01-06. link: https://www.researchgate.net/publication/380355054_Registration_Of_MSMEs_Under_Technology_Upgradation_Schemes_And_Services_The_Need_Of_The_Hour
 
-[4]. Virk, S. K., & Negi, P. (2019). An Overview of MSME Sector in India with Special Reference to the State of Uttarakhand. *International Journal of Trend in Scientific Research and Development (IJTSRD)*, 3(2).
+[4] P. Aswathy, “Empowering India’s Growth: Comprehensive Insights into MSME Schemes and Employment Dynamics through Udyam Registration,” ComFin Research, vol. 12, no. 3, pp. 18–30, Jul. 2024, doi: https://doi.org/10.34293/commerce.v12i3.7540.
 
-[5]. Rajagopal, D. (2022). A Comparative Study of Micro, Small, and Medium Enterprises (MSMEs) of Top Ten States in India. *Iconic Research and Engineering Journals*, 5(12), 164-169.
+[5] Kumaraswamy. M, Tamizhjyothi. K, “DISTRICT-WISE ANALYSIS OF UDYAM REGISTRATION IN ANDHRA PRADESH: A CATALYST FOR ENHANCING PRODUCTION LINKED INCENTIVES (PLI) FOR MSMES,” Journal of Informatics Education and Research, vol. 5, no. 1, Feb. 2025, doi: https://doi.org/10.52783/jier.v5i1.2129.
 
-[6]. Kumari, N. (2023). A Study on Growth and Challenges of MSME in India. *International Education and Research Journal (IERJ)*, 9(8).
 
