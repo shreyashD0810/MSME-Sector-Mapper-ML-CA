@@ -182,7 +182,7 @@ The **training and validation metrics** graph visualizes model performance.
 
 ## Conclusion
 
-This novel approach shows how machine learning can make MSME classification faster, more accurate, and useful for real world policy decisions. By combining text preprocessing, feature engineering, and traditional ML models, we achieved around **95% accuracy** in mapping enterprises to their correct sectors. The visual insights and interactive interface make it easier for users to understand enterprise trends and policy implications. Overall, this work proves that even simple, well-tuned ML methods can deliver powerful, interpretable results — and future improvements with NLP models could make the system even smarter and more context-aware.
+This novel approach shows how machine learning can make MSME classification faster, more accurate, and useful for real world policy decisions. By combining text preprocessing, feature engineering, and traditional ML models, we achieved around **95% accuracy** in mapping enterprises to their correct sectors. The visual insights and interactive interface make it easier for users to understand enterprise trends and policy implications. Overall, this work proves that even simple, well-tuned ML methods can deliver powerful, interpretable results and future improvements with NLP models could make the system even smarter and more context-aware.
 
 Overall, this research effectively integrates data engineering, machine learning, and explainable AI to forecast MSME longevity, quantify regional vulnerabilities, and deliver actionable insights, rendering it an invaluable tool for evidence-based policymaking and inclusive entrepreneurial growth in post-COVID India.
 
