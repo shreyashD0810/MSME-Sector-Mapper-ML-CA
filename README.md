@@ -11,7 +11,7 @@ My approach achieves good results with up to **95.3% accuracy** in classifying M
 ### Interactive Project Demonstration (gif)
 
 <img src="Results/ML Project UI.gif" width="1000">
-
+Link: https://msmeanalyticsml-lab-ca.vercel.app/
 
 The **interactive UI demo** showcases how users can:
 - Upload MSME datasets for automatic preprocessing  
