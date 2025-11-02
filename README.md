@@ -110,11 +110,26 @@ The word cloud visualization shows the most common business activity related key
 ---
 
 ### Model Evaluation & Visualization Summary
+<table>
+<tr>
+<td align="center" width="50%">
 
-| Test Performance Summary | Training & Validation Metrics |
-|:-------------------------:|:------------------------------:|
-| <img src="Results/test_performance_summary.png" width="400"> | <img src="Results/training_validation_metrics.png" width="600"> |
-| The plot shows the distribution of predicted performance levels (Low, Medium, High), key district-level insights, and top-performing MSME clusters across regions | The **training and validation metrics** graph visualizes model performance |
+### Test Performance Summary  
+<img src="Results/test_performance_summary.png" width="450px">
+
+The plot shows the distribution of predicted performance levels (Low, Medium, High), key district-level insights, and top-performing MSME clusters across regions.
+
+</td>
+<td align="center" width="50%">
+
+### Training & Validation Metrics  
+<img src="Results/training_validation_metrics.png" width="450px">
+
+The **training and validation metrics** graph visualizes model performance.
+
+</td>
+</tr>
+</table>
 
 ---
 
